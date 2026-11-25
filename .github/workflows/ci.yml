@@ -77,7 +77,7 @@ jobs:
         run: npm ci
 
       - name: Download built dist artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: dist-bundle
           path: dist
